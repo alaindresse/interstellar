@@ -1,0 +1,10 @@
+= Index page for the test-antora module
+
+This is just a very simple page to test the Antora module.
+
+// == Activity monitoring showing increased CPU usage from rg (ripgrep) processes
+
+
+.Video illustration
+****
+video::image$issue-illustration.mov[]

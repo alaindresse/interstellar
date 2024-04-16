@@ -1,0 +1,19 @@
+site:
+  title: Sample Antora Docs
+  start_page: test-antora:ROOT:index.adoc
+content:
+  sources:
+    - url: .
+      branches: HEAD
+      start_path: docs/antora
+asciidoc:
+  extensions:
+  - asciidoctor-kroki
+  attributes:
+    kroki-server-url: 'https://kroki.io'
+    kroki-default-format: 'png' # svg rendering of C4 diagrams not optimal
+    kroki-fetch-diagram: true # create diagrams at build time`
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true

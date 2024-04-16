@@ -1,0 +1,22 @@
+{
+  "c4.diagram.plantuml.enabled": true,
+  "c4.languageserver.logs.enabled": true,
+  "plantuml.render": "PlantUMLServer",
+  "plantuml.server": "https://kroki.io/plantuml",
+  "asciidoc.preview.useEditorStyle": false,
+  "asciidoc.preview.scrollPreviewWithEditor": false,
+  "asciidoc.preview.scrollEditorWithPreview": false,
+  "asciidoc.pdf.asciidoctorPdfCommandArgs": [
+    "-r, asciidoctor-kroki "
+  ],
+  "asciidoc.extensions.enableKroki": true,
+  "asciidoc.preview.asciidoctorAttributes": {
+    "relfilesuffix": ".adoc",
+    "source-highlighter": "highlight.js",
+    "kroki-server-url": "https://kroki.io",
+    "kroki-default-format": "png"
+  },
+  "editor.tabSize": 2,
+  "c4.editor.autoformat.indent": 2,
+  "asciidoc.antora.enableAntoraSupport": true,
+}
